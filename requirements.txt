@@ -1,4 +1,8 @@
 gradio
-plotly
 pandas
 numpy
+plotly
+matplotlib
+seaborn
+scikit-learn
+psutil
