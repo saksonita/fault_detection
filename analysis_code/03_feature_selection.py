@@ -1,21 +1,3 @@
-"""
-Feature Selection Script for "파단직전 =1" Condition Analysis
-
-This script applies various feature selection methods to identify the most important
-features for predicting the "파단직전 =1" condition.
-
-Methods used:
-1. Filter methods (ANOVA F-value, Mutual Information)
-2. Wrapper methods (Recursive Feature Elimination)
-3. Embedded methods (Random Forest, Gradient Boosting)
-
-Usage:
-    python feature_selection.py
-
-Author: Manus AI
-Date: April 9, 2025
-"""
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
