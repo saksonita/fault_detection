@@ -1,23 +1,3 @@
-"""
-Model Building Script for "파단직전 =1" Condition Analysis
-
-This script builds and evaluates various machine learning models to predict
-the "파단직전 =1" condition. It handles class imbalance using SMOTE and
-evaluates models using cross-validation and various metrics.
-
-Models implemented:
-1. Logistic Regression
-2. Random Forest
-3. Gradient Boosting
-4. Support Vector Machine (SVM)
-
-Usage:
-    python model_building.py
-
-Author: Manus AI
-Date: April 9, 2025
-"""
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
