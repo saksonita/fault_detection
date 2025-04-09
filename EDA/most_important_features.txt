@@ -1,0 +1,8 @@
+Most Important Features for Predicting "파단직전 =1"
+==============================================
+
+1. [M005685] 리와인더 E.P.C 중앙 [Bit]
+2. 유도가열온도WS차이
+3. 리와인더장력차이
+4. [D0006862] 작업자측 GAP [32bit integer]
+5. [D0006866] 작업자측 이전 GAP [32bit integer]

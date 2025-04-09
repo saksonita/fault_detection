@@ -1,0 +1,41 @@
+Feature Importance Summary
+=========================
+
+Top 15 Features by Average Normalized Importance:
+1. [D0006862] 작업자측 GAP [32bit integer] (Avg. Normalized Importance: 1.0000)
+2. [D0006866] 작업자측 이전 GAP [32bit integer] (Avg. Normalized Importance: 0.6501)
+3. [D0006864] 구동부측 이전 GAP [32bit integer] (Avg. Normalized Importance: 0.6132)
+4. [D0006860] 구동부측 GAP [32bit integer] (Avg. Normalized Importance: 0.5663)
+5. 유도가열온도WS차이 (Avg. Normalized Importance: 0.2450)
+6. [M005685] 리와인더 E.P.C 중앙 [Bit] (Avg. Normalized Importance: 0.2263)
+7. [D0006818] 리와인더 장력 PV [32bit integer] (Avg. Normalized Importance: 0.1616)
+8. [D0006934] 리와인더 댄서 위치. [16bit integer] (Avg. Normalized Importance: 0.1557)
+9. 리와인더장력차이 (Avg. Normalized Importance: 0.1472)
+10. [D0006894] 구동부측 역압 [32bit integer] (Avg. Normalized Importance: 0.1192)
+11. [D0006936] 연신기 댄서 위치. [32bit integer] (Avg. Normalized Importance: 0.1087)
+12. [D0006816] 강제연신기 장력 PV [32bit integer] (Avg. Normalized Importance: 0.0797)
+13. 언와인더장력차이 (Avg. Normalized Importance: 0.0767)
+14. 강제연신기장력차이 (Avg. Normalized Importance: 0.0747)
+15. [D0006814] 언와인더 장력 PV [32bit integer] (Avg. Normalized Importance: 0.0745)
+
+Top 15 Features by Combined Ranking from Feature Selection Methods:
+1. 프레스속도차이 (Average Rank: 6.20)
+2. 유도가열온도WS차이 (Average Rank: 6.80)
+3. 유도가열온도DS차이 (Average Rank: 7.40)
+4. 언와인더장력차이 (Average Rank: 8.00)
+5. 리와인더장력차이 (Average Rank: 8.60)
+6. 강제연신기장력차이 (Average Rank: 9.20)
+7. [M005686] 리와인더 E.P.C 우 1 [Bit] (Average Rank: 9.80)
+8. [M005685] 리와인더 E.P.C 중앙 [Bit] (Average Rank: 10.40)
+9. [M005684] 리와인더 E.P.C 좌 1 [Bit] (Average Rank: 11.00)
+10. [M005683] 리와인더 E.P.C 좌 2 [Bit] (Average Rank: 11.60)
+11. [M005682] 리와인더 E.P.C 좌 3 [Bit] (Average Rank: 12.20)
+12. [M005681] 리와인더 E.P.C 좌 4 [Bit] (Average Rank: 12.80)
+13. [M005680] 리와인더 E.P.C 좌 5 [Bit] (Average Rank: 13.40)
+14. [M005495] 언와인더 E.P.C 중앙 [Bit] (Average Rank: 14.00)
+15. [D0006936] 연신기 댄서 위치. [32bit integer] (Average Rank: 14.60)
+
+Consistent Top Features Across All Methods:
+1. [M005685] 리와인더 E.P.C 중앙 [Bit] (Avg. Rank: 10.40, Avg. Normalized Importance: 0.2263)
+2. 유도가열온도WS차이 (Avg. Rank: 6.80, Avg. Normalized Importance: 0.2450)
+3. 리와인더장력차이 (Avg. Rank: 8.60, Avg. Normalized Importance: 0.1472)

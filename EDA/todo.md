@@ -1,0 +1,35 @@
+# Feature Importance Analysis for "파단직전 =1" Condition
+
+## Tasks
+- [x] Examine dataset structure
+  - [x] Check dataset dimensions
+  - [x] Identify column names
+  - [x] Check target variable distribution
+- [x] Perform exploratory data analysis
+  - [x] Check for missing values
+  - [x] Analyze feature distributions
+  - [x] Check for outliers
+  - [x] Analyze feature relationships
+- [x] Identify correlations with target variable
+  - [x] Calculate correlation coefficients
+  - [x] Create correlation heatmap
+  - [x] Identify top correlated features
+- [x] Apply feature selection methods
+  - [x] Filter methods (variance, correlation)
+  - [x] Wrapper methods (RFE)
+  - [x] Embedded methods (LASSO, Tree-based)
+- [x] Build predictive models
+  - [x] Train classification models
+  - [x] Handle class imbalance
+  - [x] Perform cross-validation
+- [x] Evaluate feature importance
+  - [x] Extract feature importance from models
+  - [x] Compare importance across models
+  - [x] Identify consistent top features
+- [x] Visualize key findings
+  - [x] Create feature importance plots
+  - [x] Visualize relationships between top features and target
+- [x] Prepare final report
+  - [x] Summarize findings
+  - [x] List top features with explanations
+  - [x] Provide recommendations
