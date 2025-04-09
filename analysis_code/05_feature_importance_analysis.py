@@ -1,16 +1,3 @@
-"""
-Feature Importance Analysis Script for "파단직전 =1" Condition Analysis
-
-This script analyzes feature importance results from different models and methods
-to identify the most significant features for predicting the "파단직전 =1" condition.
-
-Usage:
-    python feature_importance_analysis.py
-
-Author: Manus AI
-Date: April 9, 2025
-"""
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
