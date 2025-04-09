@@ -10,3 +10,6 @@ pinned: false
 ---
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+
+We also can check each error index in this hugging face space 
+https://huggingface.co/spaces/saksonita/fault_detection
