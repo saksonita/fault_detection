@@ -1,0 +1,41 @@
+Feature means by target class:
+      [D0006810] 프레스 속도 PV [32bit integer]  [D0006814] 언와인더 장력 PV [32bit integer]  ...  error_index    data_index
+파단직전                                                                               ...                           
+0.0                              59.961749                             159.786885  ...    13.774135  1.356423e+06
+1.0                              59.783242                             159.748634  ...    11.149362  1.165511e+06
+
+[2 rows x 29 columns]
+
+Feature standard deviations by target class:
+      [D0006810] 프레스 속도 PV [32bit integer]  [D0006814] 언와인더 장력 PV [32bit integer]  ...  error_index     data_index
+파단직전                                                                               ...                            
+0.0                               0.554011                               3.121641  ...     5.330670  811242.877329
+1.0                               1.175484                               3.913133  ...     7.430671  996354.795949
+
+[2 rows x 29 columns]
+
+Absolute differences in means between classes (top 10):
+[D0006936] 연신기 댄서 위치. [32bit integer]     205441.511840
+data_index                                190911.974499
+[D0006860] 구동부측 GAP [32bit integer]            7.795993
+[D0006864] 구동부측 이전 GAP [32bit integer]         7.728597
+[D0006896] 작업자측 역압 [32bit integer]             2.987250
+[D0006894] 구동부측 역압 [32bit integer]             2.978142
+[D0006818] 리와인더 장력 PV [32bit integer]          2.843352
+리와인더장력차이                                       2.843352
+error_index                                    2.624772
+유도가열온도WS차이                                     0.375228
+dtype: float64
+
+Ratios of standard deviations between classes (top 10):
+[D0006934] 리와인더 댄서 위치. [16bit integer]    2.289264
+[D0006810] 프레스 속도 PV [32bit integer]      2.121770
+프레스속도차이                                   1.869327
+[D0006926] 언와인더 댄서 위치. [16bit integer]    1.646054
+유도가열온도DS차이                                1.638391
+유도가열온도WS차이                                1.462644
+error_index                               1.393947
+언와인더장력차이                                  1.253550
+[D0006814] 언와인더 장력 PV [32bit integer]     1.253550
+data_index                                1.228183
+dtype: float64

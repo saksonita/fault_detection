@@ -1,16 +1,3 @@
-"""
-Correlation Analysis Script for "파단직전 =1" Condition Analysis
-
-This script performs correlation analysis to identify relationships between features
-and the target variable, as well as relationships between different features.
-
-Usage:
-    python correlation_analysis.py
-
-Author: Manus AI
-Date: April 9, 2025
-"""
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -23,7 +10,8 @@ if not os.path.exists('analysis'):
 
 # Load the dataset
 print("Loading dataset...")
-df = pd.read_csv('엔솔_전처리_파단직전재추출_0401.csv')
+df = pd.read_csv('../data/엔솔_전처리_파단직전재추출_0401.csv')
+
 
 # Create a balanced sample for visualization
 # (using all positive cases and an equal number of negative cases)

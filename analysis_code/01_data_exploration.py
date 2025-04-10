@@ -2,6 +2,9 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+plt.rcParams['font.family'] ='Malgun Gothic'
+plt.rcParams['axes.unicode_minus'] =False
+
 import seaborn as sns
 import os
 
@@ -11,7 +14,7 @@ if not os.path.exists('analysis'):
 
 # Load the dataset
 print("Loading dataset...")
-df = pd.read_csv('엔솔_전처리_파단직전재추출_0401.csv')
+df = pd.read_csv('../data/엔솔_전처리_파단직전재추출_0401.csv')
 
 # Display basic information about the dataset
 print("\nDataset Information:")
@@ -101,7 +104,7 @@ print('\nRatios of standard deviations between classes (top 10):')
 print(std_ratios.head(10))
 
 # Save the results to a file
-with open('analysis/eda_results.txt', 'w') as f:
+with open('analysis/eda_results.txt', 'w', encoding='utf-8') as f:
     f.write('Feature means by target class:\n')
     f.write(str(feature_means))
     f.write('\n\nFeature standard deviations by target class:\n')

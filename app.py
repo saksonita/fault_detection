@@ -1270,4 +1270,4 @@ if __name__ == "__main__":
     
     logger.info(f"Starting application with configuration: {CONFIG}")
     app = create_interface()
-    app.launch(share=False)  # Set share=False for production deployment
+    app.launch(share=False, server_name='0.0.0.0', server_port=7860)  # Set share=False for production deployment
